@@ -1,0 +1,15 @@
+{
+    "background_color": "white",
+    "description": "Application pour apprendre les syllabes.",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "sizes": "319x319",
+        "type": "image/png"
+      }
+    ],
+    "name": "Syllabes App",
+    "short_name": "Syllabes",
+    "start_url": "/index.html"
+  }
