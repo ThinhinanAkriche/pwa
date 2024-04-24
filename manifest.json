@@ -1,15 +1,37 @@
 {
     "background_color": "white",
-    "description": "Application pour apprendre les syllabes.",
+    "description": "Educentre pour les Formateurs",
     "display": "fullscreen",
     "icons": [
       {
-        "src": "favicon.png",
-        "sizes": "319x319",
+        "src": "512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "192x192.png",
+        "sizes": "192x192",
         "type": "image/png"
       }
     ],
-    "name": "Syllabes App",
-    "short_name": "Syllabes",
-    "start_url": "/index.html"
+    "screenshots": [
+      {
+        "src": "screenshot-desktop-wide.png",
+        "type": "image/png",
+        "sizes": "1920x1080",
+        "platform": "wide",
+        "label": "Desktop Screenshot"
+      },
+      {
+        "src": "screenshot-mobile.png",
+        "type": "image/png",
+        "sizes": "360x640",
+        "label": "Mobile Screenshot"
+      }
+    ],
+  
+    "name": "Educentre",
+    "short_name": "Educentre",
+    "start_url": "/.",
+    "prefer_related_applications" : "true"
   }
